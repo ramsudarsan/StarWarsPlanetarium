@@ -1,0 +1,21 @@
+.Card {
+    background-color: rgba(206, 191, 127, 0.6);
+    justify-self: stretch;
+    text-align: center;
+    transition-duration: .3s;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.Image {
+    margin-top: 20px;
+}
+
+.Card:hover {
+    transform: scale(1.1) rotate(2deg);
+}
+
+.Card:active {
+    transform: rotate(0deg);
+}
